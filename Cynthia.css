@@ -1,11 +1,11 @@
  body {
    font-family: Arial, sans-serif; /*fónte da pagina*/
    /*cor de fundo*/
-   background-color: #00FF56;
+   background-color: #415F77;
 
 
    .koda {
-     background-color: #00B3FF;
+     background-color: #9CC8EC;
      padding: 20px;
      border-radius: 10px;
      width: fit-content;
@@ -16,6 +16,7 @@
 
    .botao-calcular {
      background-color: #4caf50;
+     border-radius: 10px;
      
      }
 
@@ -23,15 +24,15 @@
    .resultado {
      margin-top: 20px;
      padding: 10px;
-     background-color: #90FFB6;
+     background-color: white;
      border-radius: 5px;
      
      
      }
 
-  .botão-calcular{
-    background-color: #4ca;
-    
+  .parabola{
+    background-color: #21E062;
+    border-radius: 5px;
   }
 
 
