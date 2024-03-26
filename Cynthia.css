@@ -1,11 +1,11 @@
  body {
    font-family: Arial, sans-serif; /*fónte da pagina*/
    /*cor de fundo*/
-   background-color: #607D8B;
+   background-color: #f0f0f0,);
 
 
-   .calculadora {
-     background-color: #263238;
+   .koda {
+     background: linear-gradient(to right, #f0f0f0, #8de36b11);
      padding: 20px;
      border-radius: 10px;
      width: fit-content;
@@ -16,12 +16,7 @@
 
    .botao-calcular {
      background-color: #4caf50;
-     color: white;
-     padding: 10px 20px;
-     border: none;
-     border-radius: 5px;
-     cursor: pointer;
-     font-size: 16px;
+     
      }
 
    
@@ -33,6 +28,11 @@
      
      
      }
+
+  .botão-calcular{
+    background-color: #4ca;
+    
+  }
 
 
    
