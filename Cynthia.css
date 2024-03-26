@@ -1,11 +1,11 @@
  body {
    font-family: Arial, sans-serif; /*fónte da pagina*/
    /*cor de fundo*/
-   background-color: #f0f0f0,);
+   background-color: #00FF56;
 
 
    .koda {
-     background: linear-gradient(to right, #f0f0f0, #8de36b11);
+     background-color: #00B3FF;
      padding: 20px;
      border-radius: 10px;
      width: fit-content;
@@ -23,7 +23,7 @@
    .resultado {
      margin-top: 20px;
      padding: 10px;
-     background-color: white;
+     background-color: #90FFB6;
      border-radius: 5px;
      
      
@@ -36,4 +36,3 @@
 
 
    
-}
