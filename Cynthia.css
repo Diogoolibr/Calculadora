@@ -27,7 +27,6 @@
      background-color: white;
      border-radius: 5px;
      
-     
      }
 
   .parabola{
@@ -35,5 +34,17 @@
     border-radius: 10px;
   }
 
+
+  .pix {
+    padding: 10px ;
+    width: 180px;
+    display: block;
+    margin: 0 left ;
+    border-radius: 20px;
+    
+    
+    
+    
+  }
 
    
