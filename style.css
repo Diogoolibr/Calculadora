@@ -37,10 +37,10 @@ body {
 
 .instagram-button, .github-button {
   margin-top: 80% ;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size:10pt;
-  background-color: green;
+  background-color: #4CAF50;;
   color: white;
   margin-left: 50px;
-  border-color: green;
+  border-color: #4CAF50;;
 }
