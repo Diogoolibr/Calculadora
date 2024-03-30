@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de Equações do 2° Grau</title>
+        <link rel="stylesheet" href="Cynthia.css">
+
+     </head>
+     <body>
+      <div class="koda">
+         
+      
+         <div class="logo"><img src="./imagens/logo.jpg" alt="Imagem no topo da página com o título">
+        <h2>Calculadora Do Diogo</h2>
+         </div>
+        
+        <form class="from-line">
+      <div class="valores"
+        <label for="valorA">Valor a:</label>
+  <input type="number" id="ValorA" placeholder="Digite o valor de a">
+      </div>
+      <div class="valores">
+        
+  <label for="valorB">Valor b:</label>
+  <input type="number" id="ValorB" placeholder="Digite o valor de b">
+       </div>
+       <div class:"valores">
+  <label for="valorC">Valor c:</label>
+  <input type="number" id="ValorC" placeholder="Digite o valor de c">
+      </div>
+         
+        <br><br>
+        </form>
+        <button type="button" class="botao-calcular" onclick="calcularRaizes()">Calcular</button>
+        <div id="resultado" class="resultado"></div>
+        <button onclick="exibirParabola()" class="parabola">exibir Parabola</button>
+        <canvas id="parabolacanvas" width"400" height="400"</canvas>
+      </div>      
+       
+      
+         <script src="Calculadora.js"></script>
+      
+    </body>
+</html>

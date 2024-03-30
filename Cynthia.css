@@ -19,8 +19,11 @@
 
 
    .botao-calcular {
+     display: block;
+     margin: 10px auto;
      background-color: #4caf50;
      border-radius: 10px;
+     padding: 15px;
      
      }
 
@@ -30,20 +33,43 @@
      padding: 10px;
      background-color: white;
      border-radius: 5px;
+     text-align: center;
      
      }
 
   .parabola{
     background-color: #21E062;
     border-radius: 10px;
-  }
-
-
-  .pix {
-    padding: 10px ;
-    width: 180px;
     display: block;
-    margin: 0 left ;
-    border-radius: 20px;
+    margin: 10px auto;
+    padding: 10px;
   }
+  
+  .valores{
+    text-align: center;
+    margin-right: 10px;
+    width: 30%;
+    
+    
+  }
+  
+  .from-line{
+    display: flex;
+    text-align: center;
+    
+    
+    
+  }
+  
+   .logo{
+     text-align: center;
+     
+     
+   }
    
+   #parabolacanvas{
+     
+     display: block;
+    margin: 10px auto;
+     
+   }
