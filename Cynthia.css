@@ -1,75 +1,62 @@
- body, html{
-   font-family: Arial, sans-serif; /*fónte da pagina*/
-   /*cor de fundo*/
-   background-color: #415F77;
-   width: 100%;
-   height: 100%;
-   margin: 0;
-   padding: 0;
+body,
+html {
+  font-family: Arial, sans-serif; /*fónte da pagina*/
+  /*cor de fundo*/
+  background-color: #415f77;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-   .koda {
-     background-color: #9CC8EC;
-     padding: 20px;
-     border-radius: 10px;
-     width: fit-content;
-     margin: auto;
+.koda {
+  background-color: #9cc8ec;
+  padding: 20px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: auto;
+}
 
-     }
+.botao-calcular {
+  display: block;
+  margin: 10px auto;
+  background-color: #4caf50;
+  border-radius: 10px;
+  padding: 15px;
+}
 
+.resultado {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+}
 
-   .botao-calcular {
-     display: block;
-     margin: 10px auto;
-     background-color: #4caf50;
-     border-radius: 10px;
-     padding: 15px;
-     
-     }
+.parabola {
+  background-color: #21e062;
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+}
 
-   
-   .resultado {
-     margin-top: 20px;
-     padding: 10px;
-     background-color: white;
-     border-radius: 5px;
-     text-align: center;
-     
-     }
+.valores {
+  text-align: center;
+  margin-right: 10px;
+  width: 30%;
+}
 
-  .parabola{
-    background-color: #21E062;
-    border-radius: 10px;
-    display: block;
-    margin: 10px auto;
-    padding: 10px;
-  }
-  
-  .valores{
-    text-align: center;
-    margin-right: 10px;
-    width: 30%;
-    
-    
-  }
-  
-  .from-line{
-    display: flex;
-    text-align: center;
-    
-    
-    
-  }
-  
-   .logo{
-     text-align: center;
-     
-     
-   }
-   
-   #parabolacanvas{
-     
-     display: block;
-    margin: 10px auto;
-     
-   }
+.from-line {
+  display: flex;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+#parabolacanvas {
+  display: block;
+  margin: 10px auto;
+}
